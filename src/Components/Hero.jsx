@@ -1,4 +1,6 @@
-import hero from '../images/main-hero1.webp'
+import hero from '../images/profile.png'
+import image from '../images/image.png'
+import { NavLink } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -8,23 +10,30 @@ const Hero = () => {
           <div className="section-hero--content">
             <p className="hero-subheading">CODE WITH CREATIVITY</p>
             <h1 className="hero-heading">
-              Welcome to Dharmender's Portfolio
+              Hey, I'm Dharmender but you can call me Vickey
             </h1>
             <p className="hero-para">
-              I'm Dharmender Singh, a passionate web developer with a knack for crafting exceptional digital experiences.
-              Building Beautiful and Functional Websites to Empower Businesses and Individuals.
+              I'm a Web Developer, bridging the gap between Frontend and Backend.
             </p>
             <div className="hero-btn">
-              <a href="contact.html" className="btn btn-white">Hire me</a>
+              <NavLink to={'/contact'}  className="btn btn-white">Hire me</NavLink>
             </div>
           </div>
           <div className="section-hero--image" data-aos="fade-up"  data-aos-delay="200"  >
-            <figure >
+            <div className="image left-image"></div>
+            <div className="image right-image"></div>
+            {/* <figure className='image1' >
               <img
                 src={hero}
                 alt="a 3d character doing coding stuff "
-                           />
+                        />
             </figure>
+            <figure className='image1'>
+              <img
+                src={image}
+                alt="a 3d character doing coding stuff "
+                        />
+            </figure> */}
           </div>
         </div>
       </div>

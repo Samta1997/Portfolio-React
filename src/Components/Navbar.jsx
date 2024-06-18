@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
       // Check if the user has scrolled past the hero section
-      if (window.scrollY > heroSectionHeight/3) {
+      if (window.scrollY > heroSectionHeight/2) {
         setNavbar(false);
         
       } else {
@@ -50,8 +50,8 @@ const Navbar = () => {
           <img
             src={logo}
             alt="dharmender's logo"
-            width="100px"
-            height="80px"
+            width="80px"
+            height="60px"
           />
         </NavLink>
       </div>
@@ -67,11 +67,12 @@ const Navbar = () => {
             <NavLink to={'/services'} className="nav-link" > services </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to={'/blog'} className="nav-link" href="blog.html"> blog </NavLink>
+            <NavLink to={'/blog'} className="nav-link"> blog </NavLink>
           </li>
           <li className="nav-item">
             {/* <!-- <a className="nav-link" href="contact.html"> contact </a> --> */}
-            <a className="nav-link" href="#section-contact--homepage"> contact </a>
+            <NavLink to={'/contact'} className="nav-link" href="blog.html"> Contact </NavLink>
+            {/* <a className="nav-link" href="#section-contact--homepage"> contact </a> */}
 
           </li>
         </ul>
