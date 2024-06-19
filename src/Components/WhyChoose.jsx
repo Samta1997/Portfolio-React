@@ -17,7 +17,7 @@ const WhyChoose = () => {
             <p className="common-text--highlight">1</p>
             <h3 className="section-common--title">Experience</h3>
             <p>
-              With over 5 years of experience crafting diverse web solutions, 
+              With over 3+ years of experience crafting diverse web solutions, 
               I bring expertise and reliability to every project undertaken.
             </p>
           </div>

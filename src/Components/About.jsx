@@ -20,8 +20,8 @@ const About = () => {
         </div>
         <h3 className="section-common--title">Who I am</h3>
         <p>
-          I'm a dedicated web developer with many years of experience in web development, driven by a curiosity for 
-                  technology and a passion for crafting digital experiences.
+          I'm a dedicated web developer with 3+ years of experience in web development, driven by a curiosity for 
+          technology and a passion for crafting digital experiences.
         </p>
       </div>
 

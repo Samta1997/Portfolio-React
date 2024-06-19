@@ -15,7 +15,7 @@ const Contact = () => {
 
       <div className="container grid grid-two--cols">
         <div className="contact-content">
-          <form action="https://htmlFormspree.io/f/xyyrdvkw" method="POST">
+          <form action="https://formspree.io/f/xgegggjv" method="POST">
             <div className="grid grid-two--cols mb-3">
               <div>
                 <label htmlFor="username">username</label>

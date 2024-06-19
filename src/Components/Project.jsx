@@ -25,13 +25,10 @@ const Project = () => {
                       <div className="project-content">
                         <figcaption>Youtube-Like Website</figcaption>
                       </div> 
-                      <div className='tech-stack'>
-                        Tech Stack: MERN Stack
-                      </div>
                     </figure>
                 </div>
                 <div className='project-hover'>
-                <a href="https://workout-buddy-l3km8wygl-samta1997s-projects.vercel.app/" target="_blank">
+                <a href="https://youtube-clone15.vercel.app" target="_blank">
                   <button className='btn'>Visit Website</button>
                   </a>
                 </div>
@@ -43,13 +40,11 @@ const Project = () => {
                     <div className="project-content">
                       <figcaption>Workout Buddy</figcaption>
                     </div>
-                    <div className='tech-stack'>
-                        Tech Stack: MERN Stack
-                      </div> 
+                     
                   </figure>
               </div>
               <div className='project-hover'>
-              <a href="https://workout-buddy-l3km8wygl-samta1997s-projects.vercel.app/" target="_blank">
+              <a href="https://workout-buddy-tawny.vercel.app/" target="_blank">
                 <button className='btn'>Visit Website</button>
                 </a>
               </div>
@@ -66,7 +61,7 @@ const Project = () => {
                     </figure>
               </div>
               <div className='project-hover'>
-              <a href="https://workout-buddy-l3km8wygl-samta1997s-projects.vercel.app/" target="_blank">
+              <a href="https://randomquot.netlify.app" target="_blank">
                 <button className='btn'>Visit Website</button>
               </a>
                </div>
