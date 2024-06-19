@@ -22,7 +22,7 @@ const Navbar = () => {
  
   // Making background of navbar transperent on scrolling
   useEffect(()=>{
-    setNavHeight(isOpen ? '100px' : '0');
+    setNavHeight(isOpen ? '270px' : '0');
     const handleScroll = () => {
       const heroSection = document.querySelector('.section-hero');
       const heroSectionHeight = heroSection.clientHeight;
