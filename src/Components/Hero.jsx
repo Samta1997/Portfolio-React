@@ -1,5 +1,3 @@
-import hero from '../images/profile.png'
-import image from '../images/image.png'
 import { NavLink } from 'react-router-dom'
 
 const Hero = () => {
@@ -8,32 +6,20 @@ const Hero = () => {
       <div className="section-hero">
         <div className="container grid grid-two--cols">
           <div className="section-hero--content">
-            <p className="hero-subheading">CODE WITH CREATIVITY</p>
+            <p className="hero-subheading" data-aos="fade-right"  data-aos-delay="200">CODE WITH CREATIVITY</p>
             <h1 className="hero-heading">
-              Hey, I'm Dharmender but you can call me Vickey
+              Hey, I'm <span className='name' data-aos="fade-up"  data-aos-delay="200">Dharmender</span> but you can call me <span className='name' data-aos="fade-up"  data-aos-delay="200">Vickey</span>
             </h1>
             <p className="hero-para">
-              I'm a Web Developer, bridging the gap between Frontend and Backend.
+            This is your one-stop shop for everything <b >website design</b> and <b>development</b>. Let's build something amazing <b>together!</b>
             </p>
             <div className="hero-btn">
               <NavLink to={'/contact'}  className="btn btn-white">Hire me</NavLink>
             </div>
           </div>
-          <div className="section-hero--image" data-aos="fade-up"  data-aos-delay="200"  >
+          <div className="section-hero--image" data-aos="fade-left"  data-aos-delay="300"  >
             <div className="image left-image"></div>
             <div className="image right-image"></div>
-            {/* <figure className='image1' >
-              <img
-                src={hero}
-                alt="a 3d character doing coding stuff "
-                        />
-            </figure>
-            <figure className='image1'>
-              <img
-                src={image}
-                alt="a 3d character doing coding stuff "
-                        />
-            </figure> */}
           </div>
         </div>
       </div>

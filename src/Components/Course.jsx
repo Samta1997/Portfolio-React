@@ -18,7 +18,7 @@ const Course = () => {
             <div className="fa-brands">
                 <FaHtml5/>
             </div>
-        <h3 className="section-common--title">HTML Development</h3>
+        <h3 className="section-common--title">HTML</h3>
         <p>Web content structure with essential markup language.</p>
       </div>
 
@@ -28,7 +28,7 @@ const Course = () => {
                 <FaCss3Alt/>
             </div>
         </div>
-        <h3 className="section-common--title">CSS Development</h3>
+        <h3 className="section-common--title">CSS</h3>
         <p>Styling web elements for visually appealing websites.</p>
       </div>
       <div className="course-div">
@@ -37,7 +37,7 @@ const Course = () => {
                 <IoLogoJavascript/>
             </div>
         </div>
-        <h3 className="section-common--title">JS Development</h3>
+        <h3 className="section-common--title">JavaScript</h3>
         <p>
           Dynamic language powering interactive web applications.
         </p>
@@ -49,7 +49,7 @@ const Course = () => {
                 <FaReact/>
             </div>
         </div>
-        <h3 className="section-common--title">React Deveopment</h3>
+        <h3 className="section-common--title">React</h3>
         <p>JavaScript library for building interactive UIs.</p>
       </div>
 
